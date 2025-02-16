@@ -2,11 +2,11 @@ package cuentas;
 
 /**
  * Clase que representa una cuenta bancaria.
- * Permite realizar operaciones básicas como ingresar y retirar dinero.
+ * Permite ingresar y retirar dinero.
  */
 public class CCuenta {
 
-    /** Nombre del titular de la cuenta */
+    /** Nombre de la persona de la cuenta */
     private String nombre;
 
     /** Número de cuenta */
@@ -19,7 +19,7 @@ public class CCuenta {
     private double tipoInteres;
 
     /**
-     * Constructor por defecto de la clase CCuenta.
+     * Constructor sin prametros de la clase CCuenta.
      */
     public CCuenta() {
     }
@@ -30,7 +30,7 @@ public class CCuenta {
      * @param nombre Titular de la cuenta.
      * @param cuenta Número de cuenta.
      * @param saldo Saldo inicial de la cuenta.
-     * @param tipoInteres Tipo de interés aplicado.
+     * @param tipoInteres Tipo de interés.
      */
     public CCuenta(String nombre, String cuenta, double saldo, double tipoInteres) {
         this.nombre = nombre;
